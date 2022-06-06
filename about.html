@@ -1,21 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>About me</h1>
-    <br />
-    <a href="index.html" target="_blank">Home page</a>
-    <br />
-    <a href="blog/work.html" target="_blank">My work</a>
-    
-      <h2 id="contact">
-        Contact me:
-        <a href="mailto:mariyadotkova555@gmail.com">mariyadotkova555@gmail.com</a>
-      </h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>About me</title>
+  
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Mariya</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-black"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="about.html#contact"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 class="text-center">About me</h1>
+    <h3 class="text-center">Front-end developer from Vratsa, Bulgaria</h3>
+    <div class="about-paragraphs text-center">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/yoga.png" class="img-fluid p-2 shadow rounded" />
+        </div>
+        <div class="col-sm-4">
+          <img src="images/weather.png" class="img-fluid p-2 shadow rounded" />
+        </div>
+        <div class="col-sm-4">
+          <img src="images/yogurt.png" class="img-fluid p-2 shadow rounded" />
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="mt-5">
+      <h2 class="text-center">📮 Contact me</h2>
+      <a href="mailto:mariyadotkova@gmail.com" class="email-link">
+        mariyadotkova@gmail
+      </a>
+    </div>
+  </body>
 </html>

@@ -1,57 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-      .cities {
-        display: flex;
-       justify-content: space-evenly;
-      }
-
-      .students {
-        display: flex;
-      }
-      .student {
-        border: 1px solid red;
-        padding: 20px;
-        text-align: center;
-        flex: 1;
-      }
-    </style>
-</head>
-<body>
-   <h1>Home page</h1>
-     <br />
-     <a href="about.html" target="_blank">About me</a>
-     <br />
-     <a href="blog/work.html" target="_blank">My work</a>
-     <br />
-     <a href="Contact.html" target="_blank">Contact me</a>
-     <br />
-<a href="https://www.shecodes.io" target="_blank">This is a link</a>
-
-<div class="cities">
-<div>Paris</div>
-<div>Bangkok</div>
-<div>San Francisco</div>
-<div>Lisbon</div>
-</div>
-<div class="students">
-  <div class="student">
-Silvia
-  </div>
-  <div class="student">
-   Matilde
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mariya Pavlinova</title>
+ 
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Mariya</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-black"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="about.html#contact"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="student">
-       Diana
+    </nav>
+    <h2 class="text-center">👋 Hi I am</h2>
+    <h1 class="text-center">Mariya Pavlinova</h1>
+    <h3 class="text-center">🇧🇬Front-end developer, based in Spain</h3>
+    <div class="navigation-links mb-5">
+      <a href="about.html#contact" class="primary-link">Contact me</a>
+      <a href="about.html" class="secondary-link">About me</a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="images/yoga.png"
+            class="img-fluid rounded border shadow-sm p-2 mb-3"
+            alt=""
+          />
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3">Yoga app</h2>
+          <p>
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+              aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+              alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+              blanditiis harum."
+          </p>
+          <div class="mt-5">
+            <a href="#" class="primary-link">Launch yoga app</a>
           </div>
-          <div class="student">
-            Daniela
-              </div>
-</div>
-</body>
+        </div>
+      </div>
+      <div class="row mt-5">
+      <div class="col-md-6">
+          <h2 class="mb-3">Weather app</h2>
+          <p>
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+              aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+              alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+              blanditiis harum."
+          </p>
+          <div class="mb-5 mt-5">
+              <a href="#" class="primary-link">Launch Weather App</a>
+            </div>
+      </div>
+      
+        <div class="col-md-6">
+          <img src="images/weather.png" class="img-fluid rounded" />
+          </div>
+       
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <img src="images/yogurt.png" class="img-fluid rounded" alt="" />
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3">Yogurt app</h2>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum."
+          </p>
+          <div class="mt-5">
+            <a href="#" class="primary-link">Launch Yogurt App</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
