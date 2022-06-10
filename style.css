@@ -118,8 +118,6 @@
   .gradient-border-pseudo {
     position: relative;
     background: #f5f2fe;
-    margin: 5px;
-    
     border-radius: 5px;
   }
   
