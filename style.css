@@ -45,7 +45,9 @@
     line-height: 2;
     text-align: center;
   }
-  
+  img {
+    box-shadow: 10px 5px 5px rgb(134, 119, 119);
+  }
   .navigation-links {
     display: flex;
     margin-top: 30px;
