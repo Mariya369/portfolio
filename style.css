@@ -131,7 +131,7 @@ color: white !important;
   }
   .primary-link {
     border-radius: 100px !important;
-    padding: 20px 15px;
+    padding: 10px 8px;
     text-decoration: none;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
@@ -142,7 +142,7 @@ color: white !important;
   
   .secondary-link {
     border-radius: 100px !important;
-    padding: 20px 15px;
+    padding: 10px 8px;
     text-decoration: none;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -169,14 +169,12 @@ color: white !important;
     bottom: 0;
     left: 0;
     z-index: -1;
-  
     margin: -5px;
     border-radius: inherit;
     background-image: linear-gradient(45deg, #6c63ff, #f5f2fe);
   }
 
-  .animate-character
-{
+  .animate-character {
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
@@ -194,7 +192,7 @@ color: white !important;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 80px;
+  font-size: 60px;
 }
 
 @keyframes textclip {
@@ -214,17 +212,20 @@ margin-bottom: 5px;
  
 
 @media (min-width: 600px) {
+  
   .circle {
     width: 200px;
     height: 200px;
     line-height: 200px;
     font-size: 20px;
   }
+  
   .h1 {
    font-size: 30px;
    font-weight: 400;
    text-align: center;
   }
+
   .primary-link {
     text-decoration: none;
     background: var(--primary-color);
@@ -232,7 +233,6 @@ margin-bottom: 5px;
     color: #5ee7df;
     font-size: 20px;
   }
-
 
   .secondary-link {
     text-decoration: none;
