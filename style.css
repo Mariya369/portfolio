@@ -23,6 +23,11 @@
     background-color: #b490ca80;
     background-image: linear-gradient(to right,  #b490ca80, rgba(94, 231, 223, 0.5));
   }
+  
+  .gradient-custom {
+    background-image: linear-gradient(to right, rgba(94, 231, 223, 0.5), #b491ca80);
+    background-repeat: no-repeat;
+  }
 
  .circle {
   width: 300px;
@@ -61,11 +66,13 @@
   
   h4 {
     text-align: center;
+    color: var(--primary-color);
+    font-size: 15px;
   }
   p {
     padding: 20px;
     border-radius: 4px;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 2;
     text-align: center;
     color: white;
@@ -204,12 +211,8 @@ color: white !important;
 .source {
 margin-left: 10px;
 margin-bottom: 5px;
+color: white;
 }
-
-  small {
-    color: white;
-  }
- 
 
 @media (min-width: 600px) {
   
@@ -254,7 +257,7 @@ margin-bottom: 5px;
   .animate-character {
     font-size: 60px;
   }
-  
+
   .h1 {
    font-size: 30px;
    font-weight: 400;
@@ -276,4 +279,5 @@ margin-bottom: 5px;
     box-shadow: var(--box-shadow);
     font-size: 20px;
   }
+ 
 }
