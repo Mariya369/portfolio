@@ -8,21 +8,21 @@
 
   }
   
-  
+html { 
+    background: linear-gradient(to right, rgba(94, 231, 223, 0.5), #b491ca80); no-repeat center center fixed; 
+    background-size: cover;
+  }
+
   body {
-  margin-top: 100px;
+    margin: 0;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(94, 231, 223, 0.5), #b491ca80);
   }
 
   .gradient {
-    background: #b490ca80;
-    background: -webkit-linear-gradient(to right, rgba(180, 144, 202, 0.5), rgba(94, 231, 223, 0.5));
-    background: linear-gradient(to right,  #b490ca80, rgba(94, 231, 223, 0.5));
-  }
-
-  .gradient-custom {
-    background: #5ee7df;
-    background: -webkit-linear-gradient(to right, rgba(94, 231, 223, 0.5), rgba(180, 144, 202, 0.5));
-    background: linear-gradient(to right, rgba(94, 231, 223, 0.5), #b491ca80)
+    background-color: #b490ca80;
+    background-image: linear-gradient(to right,  #b490ca80, rgba(94, 231, 223, 0.5));
   }
 
  .circle {
