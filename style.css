@@ -9,11 +9,12 @@
   }
   
 html { 
-    background: linear-gradient(to right, rgba(94, 231, 223, 0.5), #b491ca80); no-repeat center center fixed; 
+    background: linear-gradient(to right, rgba(94, 231, 223, 0.5), #b491ca80);
     background-size: cover;
   }
 
   body {
+
     margin: 0;
     padding: 5px;
     background-repeat: no-repeat;
@@ -36,14 +37,6 @@ html {
   margin: 0 auto;
 }
 
-@media (min-width: 600px) {
-  .circle {
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    font-size: 20px;
-  }
-}
   h1 {
     text-align: center;
     font-family: Bellefair;
@@ -139,7 +132,7 @@ color: white !important;
     text-decoration: underline;
   }
   .primary-link {
-    border-radius: 4px;
+    border-radius: 100px !important;
     padding: 20px 15px;
     text-decoration: none;
     background: var(--primary-color);
@@ -153,7 +146,7 @@ color: white !important;
   }
   
   .secondary-link {
-    border-radius: 4px;
+    border-radius: 100px !important;
     padding: 20px 15px;
     text-decoration: none;
     color: var(--primary-color);
@@ -216,7 +209,62 @@ color: white !important;
 }
 
   small {
-  
     color: white;
   }
  
+
+@media (min-width: 600px) {
+  .circle {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 20px;
+  }
+  .h1 {
+   font-size: 30px;
+   font-weight: 400;
+   text-align: center;
+  }
+  .primary-link {
+    text-decoration: none;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: #5ee7df;
+    font-size: 20px;
+  }
+  .secondary-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .circle {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 20px;
+  }
+  .h1 {
+   font-size: 30px;
+   font-weight: 400;
+   text-align: center;
+  }
+  .primary-link {
+    text-decoration: none;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: #5ee7df;
+    font-size: 20px;
+  }
+  .secondary-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+    font-size: 20px;
+  }
+}
