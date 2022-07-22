@@ -192,7 +192,7 @@ color: white !important;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 60px;
+  font-size: 80px;
 }
 
 @keyframes textclip {
@@ -250,6 +250,11 @@ margin-bottom: 5px;
     line-height: 200px;
     font-size: 20px;
   }
+
+  .animate-character {
+    font-size: 60px;
+  }
+  
   .h1 {
    font-size: 30px;
    font-weight: 400;
