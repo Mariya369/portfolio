@@ -137,7 +137,7 @@ color: white !important;
   }
   .primary-link {
     border-radius: 100px !important;
-    padding: 25px 18px !important;
+    padding: 20px 18px !important;
     text-decoration: none;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
