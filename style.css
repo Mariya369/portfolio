@@ -121,7 +121,7 @@ color: white !important;
   }
   
   .about-paragraphs p {
-    margin: 10px;
+    margin: 30px;
   }
   
   .email-link {
@@ -137,7 +137,7 @@ color: white !important;
   }
   .primary-link {
     border-radius: 100px !important;
-    padding: 20px 18px !important;
+    padding: 25px 18px !important;
     text-decoration: none;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
@@ -272,14 +272,17 @@ line-height: 1;
   }
   
   .primary-link {
-    margin: 0 auto;
-    padding: 10px 8px !important;
+  
     border-radius: 100px !important;
     text-decoration: none;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: #5ee7df;
     font-size: 13px !important;
+  }
+
+  .primary-link active {
+    margin: 0 auto !important;
   }
   .secondary-link {
     border-radius: 100px !important;
