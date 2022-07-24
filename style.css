@@ -43,10 +43,9 @@
   h1 {
     text-align: center;
     font-family: Bellefair;
-   font-size: 45px;
    font-weight: 700;
    margin-top: 70px;
-   margin-bottom: 100px;
+   margin-bottom: 50px;
    color: var(--primary-color);
   }
 
@@ -72,7 +71,6 @@
   p {
     padding: 20px;
     font-size: 15px;
-    line-height: 1;
     text-align: center;
     color: white;
   }
@@ -94,8 +92,6 @@ color: white !important;
   
   .navigation-links a {
     margin: 20px;
-    border-radius: 4px;
-    padding: 20px 15px;
   }
   
   .contact-link {
@@ -103,7 +99,7 @@ color: white !important;
     box-shadow: var(--box-shadow);
     color: white;
   }
-  
+   
   .about-link {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -117,11 +113,13 @@ color: white !important;
   
   .about-paragraphs {
     display: flex;
-    margin: 30px 0;
+   
   }
   
   .about-paragraphs p {
-    margin: 30px;
+    margin: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
   }
   
   .email-link {
@@ -137,7 +135,7 @@ color: white !important;
   }
   .primary-link {
     border-radius: 100px !important;
-    padding: 25px 18px !important;
+    padding: 10px 15px;
     text-decoration: none;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
@@ -148,7 +146,7 @@ color: white !important;
   
   .secondary-link {
     border-radius: 100px !important;
-    padding: 10px 8px;
+    padding: 10px 15px;
     text-decoration: none;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -208,8 +206,8 @@ color: white !important;
 }
 
 .source {
-margin-left: 10px;
-margin-bottom: 5px;
+  text-align: center;
+margin: 50px 10px 10px 10px;
 color: white;
 line-height: 1;
 }
@@ -231,13 +229,13 @@ line-height: 1;
 .text-center {
   margin-top: 50px;
 }
+
   .primary-link {
     text-decoration: none;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: #5ee7df;
     font-size: 20px;
-  
   }
 
   .secondary-link {
@@ -247,13 +245,11 @@ line-height: 1;
     box-shadow: var(--box-shadow);
     font-size: 20px;
   }
-  .source {
-    text-align: center;
-    margin-top: 70px;
-  }
+  
 }
 
 @media (max-width: 600px) {
+
   .circle {
     width: 200px;
     height: 200px;
@@ -262,7 +258,7 @@ line-height: 1;
   }
 
   .animate-character {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .h1 {
@@ -272,7 +268,7 @@ line-height: 1;
   }
   
   .primary-link {
-  
+ 
     border-radius: 100px !important;
     text-decoration: none;
     background: var(--primary-color);
@@ -280,10 +276,7 @@ line-height: 1;
     color: #5ee7df;
     font-size: 13px !important;
   }
-
-  .primary-link active {
-    margin: 0 auto !important;
-  }
+  
   .secondary-link {
     border-radius: 100px !important;
     text-decoration: none;
