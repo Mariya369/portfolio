@@ -110,13 +110,22 @@ color: white !important;
     text-align: center;
     display: block;
   }
+
+  .about-paragraph p {
+    margin: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
   
-  .about-paragraphs {
+  .about-paragraph p {
     display: flex;
-   
+    margin: 50px;
+    font-size: 20px;
+    letter-spacing: 3px;
   }
   
   .about-paragraphs p {
+    display: flex;
     margin: 50px;
     font-size: 20px;
     letter-spacing: 3px;
@@ -226,9 +235,6 @@ line-height: 1;
    font-weight: 400;
    text-align: center;
   }
-.text-center {
-  margin-top: 50px;
-}
 
   .primary-link {
     text-decoration: none;
@@ -267,6 +273,9 @@ line-height: 1;
    text-align: center;
   }
   
+  .ice-cream {
+    padding: 0;
+  }
   .primary-link {
  
     border-radius: 100px !important;
@@ -274,7 +283,8 @@ line-height: 1;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: #5ee7df;
-    font-size: 13px !important;
+    font-size: 10px !important;
+  
   }
   
   .secondary-link {
@@ -286,5 +296,5 @@ line-height: 1;
     font-size: 13px;
   }
 
-
+ 
 }
