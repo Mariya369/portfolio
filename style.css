@@ -117,13 +117,6 @@ color: white !important;
     letter-spacing: 3px;
   }
   
-  .about-paragraph p {
-    display: flex;
-    margin: 50px;
-    font-size: 20px;
-    letter-spacing: 3px;
-  }
-  
   .about-paragraphs p {
     margin: 50px;
     font-size: 20px;
@@ -292,7 +285,7 @@ line-height: 1;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     box-shadow: var(--box-shadow);
-    font-size: 13px;
+    font-size: 10px;
   }
 
  
