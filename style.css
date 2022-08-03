@@ -41,12 +41,14 @@
 }
 
   h1 {
+    font-size: 50px !important;
     text-align: center;
     font-family: Bellefair;
-   font-weight: 700;
+   font-weight: 600;
    margin-top: 70px;
    margin-bottom: 50px;
    color: var(--primary-color);
+   
   }
 
   h2 {
