@@ -15,7 +15,7 @@
     overflow-x: hidden;
     background-size: cover;
     margin: 0;
-    background-image: linear-gradient(to right, rgba(94, 231, 223, 0.5), #b491ca80);
+    background-image: linear-gradient(to right, rgb(253, 255, 252), #fff);
     background-repeat: no-repeat;
   }
 
@@ -29,17 +29,9 @@
     background-repeat: no-repeat;
   }
 
- .circle {
-  width: 300px;
-  height: 300px;
-  line-height: 200px;
-  border-radius: 50%;
-  font-size: 20px;
-  color: #ae2efd80;
-  text-align: center;
-  margin: 0 auto;
+.hero-section {
+  margin-top: 5rem;
 }
-
   h1 {
     font-size: 50px !important;
     text-align: center;
@@ -47,7 +39,6 @@
    font-weight: 600;
    margin-top: 70px;
    margin-bottom: 50px;
-   color: var(--primary-color);
    
   }
 
@@ -55,7 +46,6 @@
     text-align: center;
     font-family: Montserat;
     font-size: 38px;
-   color: var(--primary-color);
   }
   
   h3 {
@@ -67,14 +57,12 @@
   
   h4 {
     text-align: center;
-    color: var(--primary-color);
     font-size: 20px;
   }
   p {
     padding: 10px;
     font-size: 15px;
     text-align: center;
-    color: white;
   }
   a  {
     color: #ae2efd80;
