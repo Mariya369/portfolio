@@ -198,6 +198,7 @@ color: white !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
+  animation-direction: reverse;
   display: inline-block;
   font-size: 80px;
 }
