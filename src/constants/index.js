@@ -191,7 +191,7 @@ const projects = [
       { name: "5 Pages", color: "text-red-500" },
       { name: "1 Revision", color: "text-yellow-500" },
     ],
-    price: "$500",
+    price: "€",
   },
   {
     title: "Standard Package",
@@ -203,7 +203,7 @@ const projects = [
       { name: "3 Revisions", color: "text-yellow-500" },
       { name: "Basic 3D Animations", color: "text-purple-500" },
     ],
-    price: "$1000",
+    price: "€",
   },
   {
     title: "Premium Package",
@@ -216,7 +216,7 @@ const projects = [
       { name: "Advanced 3D Animations", color: "text-purple-500" },
       { name: "Dedicated Support", color: "text-orange-500" },
     ],
-    price: "$2000",
+    price: "€",
   },
 ];
 

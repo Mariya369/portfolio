@@ -1,9 +1,9 @@
-// src/components/PricingPlans.jsx
-import React from "react";
+import React, { useState } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { pricingPackages } from "../constants";
 import { styles } from "../styles";
+import { FaCheck } from 'react-icons/fa';
 
 const zoomIn = {
   hidden: { opacity: 0, scale: 0.8 },
@@ -21,6 +21,20 @@ const bounceIn = {
 };
 
 const PricingPlans = () => {
+  const [hoveredButtons, setHoveredButtons] = useState(Array(pricingPackages.length).fill(false));
+
+  const handleHover = (index) => {
+    const newHoveredButtons = [...hoveredButtons];
+    newHoveredButtons[index] = true;
+    setHoveredButtons(newHoveredButtons);
+  };
+
+  const handleHoverOut = (index) => {
+    const newHoveredButtons = [...hoveredButtons];
+    newHoveredButtons[index] = false;
+    setHoveredButtons(newHoveredButtons);
+  };
+
   return (
     <section id="pricing-plans" className="py-20 bg-primary text-white">
       <div className="container mx-auto">
@@ -28,10 +42,10 @@ const PricingPlans = () => {
           variants={fadeIn}
           initial="hidden"
           animate="visible"
-          className="text-center"
+          className="text-center mb-8"
         >
-          <p className={styles.sectionSubText}>Choose the best plan for your needs</p>
           <h2 className={styles.sectionHeadText}>Pricing Plans</h2>
+          <p className={styles.sectionSubText}>Choose the best plan for your needs</p>
         </motion.div>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -71,15 +85,23 @@ const PricingPlans = () => {
 
                 <div className='mt-4 flex flex-wrap gap-2 justify-center'>
                   {plan.features.map((feature, idx) => (
-                    <p key={`${feature.name}-${idx}`} className={`text-[14px] ${feature.color}`}>
+                    <p key={`${feature}-${idx}`} className={`text-[14px] ${feature.color}`}>
                       #{feature.name}
                     </p>
                   ))}
                 </div>
 
                 <div className='relative w-full mt-5 flex justify-center'>
-                  <button className="text-white bg-primary py-2 px-4 rounded-lg">
-                    Choose Plan
+                  <button
+                    className="text-white bg-primary py-2 px-4 rounded-lg relative overflow-hidden"
+                    onMouseEnter={() => handleHover(index)}
+                    onMouseLeave={() => handleHoverOut(index)}
+                  >
+                    {hoveredButtons[index] ? (
+                      <FaCheck className="absolute inset-0 m-auto opacity-100 scale-100" />
+                    ) : (
+                      "Choose Plan"
+                    )}
                   </button>
                 </div>
               </Tilt>

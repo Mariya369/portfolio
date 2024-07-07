@@ -14,6 +14,7 @@ const styles = {
     sectionSubText:
       "sm:text-[18px] text-[14px] text-secondarytext-xl text-gray-400 uppercase tracking-wider",
       hashtagColor: 'text-secondary',  
+      button: "relative overflow-hidden",
   };
   
   export { styles };
