@@ -181,8 +181,7 @@ const projects = [
     web_link: "https://peaceful-conkies-e790ad.netlify.app/",
   },
 ];
-// src/constants.js
-export const pricingPackages = [
+ const pricingPackages = [
   {
     title: "Basic Package",
     description: "A starter package perfect for small businesses and personal projects.",
@@ -222,7 +221,7 @@ export const pricingPackages = [
 ];
 
 
-export { services, technologies, projects, pricingPlans };
+export { services, technologies, projects, pricingPackages };
 export const socialLinks = {
   github: "https://github.com/Mariya369",
   linkedin: "https://www.linkedin.com/in/mariya-dotkova/",
