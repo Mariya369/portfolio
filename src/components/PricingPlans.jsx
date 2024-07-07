@@ -69,10 +69,10 @@ const PricingPlans = () => {
                   <p className='mt-2 text-gray-300'>{plan.description}</p>
                 </div>
 
-                <div className='mt-4 text-gray-400 text-center'>
+                <div className='mt-4 flex flex-wrap gap-2 justify-center'>
                   {plan.features.map((feature, idx) => (
-                    <p key={idx} className='text-[14px] mb-2'>
-                      <span className="mr-1">*</span> {feature}
+                    <p key={`${feature.name}-${idx}`} className={`text-[14px] ${feature.color}`}>
+                      #{feature.name}
                     </p>
                   ))}
                 </div>
