@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Tech from "./Tech";
 import Projects from "./Projects";
+import PricingPlans from "./PricingPlans";
 import Contact from "./Contact";
 import SecondaryNav from './SecondaryNav';
 import CanvasLoader from "./Loader";
@@ -17,6 +18,7 @@ export {
   About,
   Tech,
   Projects,
+  PricingPlans,
   Contact,
   CanvasLoader,
   EarthCanvas, 

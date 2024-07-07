@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import { About, Contact, Hero, Navbar, Tech, Projects, StarsCanvas } from './components';
+import { About, Contact, Hero, Navbar, Tech, Projects, PricingPlans, StarsCanvas } from './components';
 import SecondaryNav from './components/SecondaryNav';
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
       <About />
       <Tech />
       <Projects />
+      <PricingPlans />
       <div className="relative z-0">
         <Contact />
         <StarsCanvas />

@@ -41,19 +41,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
+    description: "Building responsive and dynamic web applications.",
     icon: web,
   },
   {
-    title: "ReactJS Developer",
+    title: "UI/UX Design",
+    description: "Crafting intuitive and engaging user interfaces.",
     icon: mobile,
   },
   {
-    title: "FrontEnd Developer",
+    title: "FrontEnd Development",
+    description: "Developing modern and interactive frontend experiences.",
     icon: frontend,
   },
   {
-    title: "Content Creator",
+    title: "3D Animation",
+    description: "Creating captivating 3D animations for your projects.",
     icon: creator,
   },
 ];
@@ -177,8 +181,48 @@ const projects = [
     web_link: "https://peaceful-conkies-e790ad.netlify.app/",
   },
 ];
+// src/constants.js
+export const pricingPackages = [
+  {
+    title: "Basic Package",
+    description: "A starter package perfect for small businesses and personal projects.",
+    features: [
+      "Responsive Web Design",
+      "Basic SEO",
+      "5 Pages",
+      "1 Revision",
+    ],
+    price: "$500",
+  },
+  {
+    title: "Standard Package",
+    description: "An ideal package for growing businesses and entrepreneurs.",
+    features: [
+      "Responsive Web Design",
+      "Advanced SEO",
+      "10 Pages",
+      "3 Revisions",
+      "Basic 3D Animations",
+    ],
+    price: "$1000",
+  },
+  {
+    title: "Premium Package",
+    description: "A comprehensive package for established businesses looking to stand out.",
+    features: [
+      "Responsive Web Design",
+      "Premium SEO",
+      "Unlimited Pages",
+      "Unlimited Revisions",
+      "Advanced 3D Animations",
+      "Dedicated Support",
+    ],
+    price: "$2000",
+  },
+];
 
-export { services, technologies, projects };
+
+export { services, technologies, projects, pricingPlans };
 export const socialLinks = {
   github: "https://github.com/Mariya369",
   linkedin: "https://www.linkedin.com/in/mariya-dotkova/",
