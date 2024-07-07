@@ -30,8 +30,8 @@ const PricingPlans = () => {
           animate="visible"
           className="text-center"
         >
-          <h2 className={styles.sectionHeadText}>Pricing Plans</h2>
           <p className={styles.sectionSubText}>Choose the best plan for your needs</p>
+          <h2 className={styles.sectionHeadText}>Pricing Plans</h2>
         </motion.div>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
