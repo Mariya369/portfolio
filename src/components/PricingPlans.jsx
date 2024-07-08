@@ -44,10 +44,16 @@ const PricingPlans = () => {
           animate="visible"
           className="text-center mb-8"
         >
-          <h2 className={styles.sectionHeadText}>Pricing Plans</h2>
           <p className={styles.sectionSubText}>Choose the best plan for your needs</p>
+          <h2 className={styles.sectionHeadText}>Pricing Plans</h2>
         </motion.div>
-
+        <div className='w-full flex'>
+        <motion.p
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+          //* These projects highlight my expertise and experience through tangible, real-world examples of my work. Each project is succinctly described and includes links to both code repositories and live demos. They illustrate my proficiency in solving complex problems, my versatility with various technologies, and my capability to manage projects efficiently.
+        </motion.p>
+      </div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {pricingPackages.map((plan, index) => (
             <motion.div
