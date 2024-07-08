@@ -51,8 +51,8 @@ const PricingPlans = () => {
         <motion.p
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          //* These projects highlight my expertise and experience through tangible, real-world examples of my work. Each project is succinctly described and includes links to both code repositories and live demos. They illustrate my proficiency in solving complex problems, my versatility with various technologies, and my capability to manage projects efficiently.
-        </motion.p>
+          I offer comprehensive web development services, specializing in React.js development and SEO services, to help businesses create efficient, scalable, and user-friendly web applications. Additionally, I provide a range of digital products and services tailored to meet diverse business needs.
+           </motion.p>
       </div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {pricingPackages.map((plan, index) => (
