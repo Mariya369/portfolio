@@ -1,4 +1,4 @@
-import logo from "./logo500.png";
+import logo from "/assets/logo500.png";
 import frontend from "./frontend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -27,7 +27,7 @@ import tesla from "./company/tesla.png";
 
 import weather from "./weather.png";
 import reactapp from "./reactapp.png";
-import portphotofolio from "./portphotofolio.png";
+import portphotofolio from "/assets/portphotofolio.png";
 
 export {
   logo,
